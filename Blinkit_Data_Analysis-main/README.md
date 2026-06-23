@@ -1,153 +1,38 @@
+# 🛒 Blinkit Grocery Sales Analysis
 
-# 🛒 Blinkit Grocery Sales Data Analysis
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Author](https://img.shields.io/badge/Author-saikiranbonumahantthi-blue?style=for-the-badge)
 
-Welcome to the Blinkit Data Analysis project! This is a **real-world business intelligence case study** that uses **SQL, Python, Excel**, and **Power BI** to uncover valuable insights from Blinkit's grocery sales and outlet data. From sales patterns to customer ratings and outlet efficiency — this project covers it all!
+> **End-to-end sales analytics for Blinkit — India's leading quick-commerce app — covering KPI dashboards, SQL analysis, and Python EDA on 8,500+ grocery records.**
 
----
+## 📌 Overview
+Analyzes Blinkit grocery sales to uncover outlet performance patterns, top product categories, and customer behavior — with an interactive Power BI dashboard for business decision-making.
 
-## 📌 Objective
+## 💡 Key Business Insights
+| Metric | Finding |
+|---|---|
+| Top Outlet Type | Supermarket Type 1 generates highest revenue |
+| Top Category | Fruits & Vegetables and Snack Foods dominate |
+| Tier Analysis | Tier 3 cities have the highest outlet count |
+| Fat Content | Low Fat items growing faster than Regular |
+| Establishment | Pre-2010 outlets show highest sales maturity |
+| Avg Rating | 3.9/5 — strong correlation with item visibility |
 
-The main goal of this project is to **analyze Blinkit's sales data** to discover:
+## 📁 Files
+| File | Description |
+|---|---|
+| BlinkIT Grocery Data.xlsx | Raw dataset — 8,500+ product records |
+| Blinkit Analysis.ipynb | Python EDA notebook |
+| BlinkIt_SQL.sql | SQL queries for KPI calculations |
+| BlinkIt.pbix | Interactive Power BI dashboard |
+| BlinkIt Dashboard.pdf | Dashboard export |
+| Blinkit Insights.pdf | Executive summary of findings |
 
-- 🔍 Patterns in customer purchasing behavior
-- 📉 Underperforming categories or outlets
-- 📈 Opportunities to improve revenue and efficiency
+## 📊 Dashboard KPIs
+Total Sales, Average Sales, Item Count, Average Rating, Sales by Fat Content, Item Type breakdown, Outlet Size and Tier comparison, Outlet Type performance matrix
 
-This project simulates how a data analyst would present data-driven recommendations to business stakeholders.
-
----
-
-## 🧰 Tools & Technologies Used
-
-| Tool       | Purpose                             |
-|------------|-------------------------------------|
-| **SQL**    | Data extraction, transformation, and aggregation |
-| **Python** | Data cleaning, EDA (Exploratory Data Analysis) using Pandas and Matplotlib |
-| **Excel**  | Initial data exploration and quick KPIs |
-| **Power BI** | Interactive dashboard creation for KPI storytelling and visualizations |
-
----
-
-## 📂 Dataset Summary
-
-- **Items**: Various grocery products sold by Blinkit  
-- **Sales**: Units sold, revenue generated  
-- **Customer Ratings**: Based on purchase satisfaction  
-- **Outlet Details**: Type, size, location, and year of establishment  
-
-> 📄 Format: Excel Workbook (.xlsx)
-
----
-
-## 📊 Business Questions & KPI Requirements
-
-Here are the key insights and metrics we aimed to extract:
-
-### 🔸 1. Total Sales by Fat Content
-- **Objective**: Analyze how fat content (Low Fat, Regular) affects total revenue  
-- **KPIs**: Total Sales, Average Sales, Number of Items, Average Rating  
-- **Chart**: Donut Chart (Power BI)
-
----
-
-### 🔸 2. Total Sales by Item Type
-- **Objective**: Identify which product categories contribute most to revenue  
-- **KPIs**: Same as above  
-- **Chart**: Bar Chart
-
----
-
-### 🔸 3. Fat Content Sales across Outlets
-- **Objective**: Compare total sales across different outlet types segmented by fat content  
-- **Chart**: Stacked Column Chart
-
----
-
-### 🔸 4. Total Sales by Outlet Establishment Year
-- **Objective**: Explore how the outlet age impacts performance  
-- **Chart**: Line Chart
-
----
-
-### 🔸 5. Sales by Outlet Size
-- **Objective**: Determine which outlet sizes generate the most revenue  
-- **Chart**: Donut / Pie Chart
-
----
-
-### 🔸 6. Sales by Outlet Location
-- **Objective**: Discover the geographic distribution of Blinkit’s revenue  
-- **Chart**: Funnel Map
-
----
-
-### 🔸 7. All KPIs by Outlet Type
-- **Objective**: Compare all KPIs (Sales, Ratings, etc.) across outlet types  
-- **Chart**: Matrix Card
-
----
-
-## 📌 Power BI Dashboard Overview
-
-The final dashboard is built using **Power BI** and provides an **interactive and real-time view** of all the insights, including:
-
-- Dynamic filters and slicers
-- Drill-down capability for deeper analysis
-- Clean UI with bold visuals and a logical flow
-
-> ✅ Each chart answers a specific business question  
-> 📊 KPIs are displayed in cards and matrix format for clarity  
-> 🌐 Geographic visuals help identify location-based performance trends  
-
----
-
-## 🔍 Python EDA (Exploratory Data Analysis)
-
-Using **Pandas and Matplotlib**, we:
-
-- Handled missing values and duplicates
-- Created grouped metrics like avg. sales and ratings
-- Visualized trends and correlations in the dataset
-
----
-
-## 📈 Excel Use
-
-- Initial data validation and transformation
-- Quick pivot tables for checking metrics
-- Manual KPI calculations for cross-verification
-
----
-
-## 🚀 Key Takeaways
-
-- Leveraged multiple tools to simulate real-world BI workflow
-- Gained business insights that can drive marketing and inventory decisions
-- Built a compelling and easy-to-navigate dashboard for stakeholders
-- Strengthened hands-on skills in data storytelling and BI presentation
-
----
-
-## 📁 Project Structure
-
-📦 Blinkit-Data-Analysis/
-├── 📊 PowerBI Dashboard (Blinkit.pbix)
-├── 🐍 Python Scripts (EDA.ipynb / analysis.py)
-├── 📈 Excel Files (BlinkIT Grocery Data.xlsx)
-├── 📄 Documentation (Insights.pdf, README.md)
-
-
----
-
-## 🙋‍♀️ About Me
-
-**Snehal Nalawade**  
-💼 Aspiring Data Analyst | Passionate about BI and storytelling  
-📧 snehalrnalawade2003@gmail.com 
-📍 India  
-
-
----
-
-## 🙏 Thank You!
-
+## 👤 Author
+**Sai Kiran Bonumahantthi** | [GitHub](https://github.com/saikiranbonumahantthi) | saikiranbonumahanthi1@gmail.com
