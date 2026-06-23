@@ -1,119 +1,47 @@
-<h1 align="center">End-to-End Data Analytics Project: Python + SQL</h1>
+# 🛒 Retail Data Analytics — Python + SQL Integration
 
-Welcome to my end-to-end data analytics project! This repository showcases a complete data analysis workflow using Python and SQL, focused on **retail order** data. It highlights my ability to handle real-world datasets, clean and preprocess data, and derive actionable insights, making it a perfect fit for data analyst positions.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Author](https://img.shields.io/badge/Author-saikiranbonumahantthi-blue?style=for-the-badge)
 
-**<h3>Project Overview</h3>**
+> **Full analytics pipeline: Kaggle API data ingestion → Pandas cleaning → SQL Server analysis → Python visualization — a real-world data analyst workflow.**
 
-This project demonstrates how to work with large datasets, from extraction and cleaning to analysis and visualization.
+---
 
-**<h3>Here's a high-level overview:</h3>**
+## 📌 Project Overview
 
-**1.Data Extraction:** Leveraged the Kaggle API to download datasets programmatically.
+End-to-end retail analytics demonstrating how a data analyst works in production: pulling data via API, loading to SQL, running business queries, and surfacing results as clean visualizations.
 
-**2.Data Cleaning and Preprocessing:** Used Python and Pandas to handle missing values, normalize data, and prepare it for analysis.
+## 💡 Key Business Insights
 
-**3.Database Integration:** Loaded the cleaned data into an SQL Server database for querying and analysis.
+| Analysis | Finding |
+|---|---|
+| 🏆 Top Revenue Products | Highest-margin SKUs driving disproportionate revenue identified |
+| 📈 YoY Sales Growth | Month-by-month year-over-year comparison with growth % |
+| 🌍 Regional Performance | Top 5 states/cities by sales and profit margin |
+| 📦 Sub-Category Ranking | Sub-categories ranked by profit margin |
+| 📅 Best Month Per Year | Peak sales months identified for each fiscal year |
 
-**4.Data Analysis:** Conducted exploratory data analysis (EDA) and derived insights using SQL queries.
+## 📁 Project Files
 
-**<h3>Project Architecture</h3>**
+| File | Description |
+|---|---|
+| orders.csv | 25,000+ retail order records (Kaggle dataset) |
+| Order Data Analysis.ipynb | Python notebook — ingestion, EDA, visualization |
+| orders data analysis.py | Script version for automation/scheduling |
+| SQLQuery3.sql | Advanced SQL for business KPI queries |
+| project architecture.png | Pipeline architecture diagram |
 
-**Workflow Breakdown:**
+## 🛠️ Tech Stack
 
-**Kaggle API:** Accessed datasets efficiently without manual downloads.
+| Tool | Purpose |
+|---|---|
+| Python / Pandas | Data ingestion, cleaning, transformation |
+| SQL Server | Storage and analytical querying |
+| SQLAlchemy | Python-to-SQL connection layer |
+| Matplotlib / Seaborn | Business chart visualizations |
+| Kaggle API | Automated dataset download |
 
-**Python + Pandas:** Performed data cleaning, including:
-
-1.Handling missing data
-
-2.Formatting and transforming columns
-
-3.Removing duplicates
-
-**SQL Server:** Loaded the cleaned dataset into SQL Server and conducted in-depth analysis using SQL queries.
-
-**Data Analysis: Used SQL to:**
-
-1.Aggregate data
-
-2.Identify trends
-
-3.Generate insights for decision-making
-
-**Skills Demonstrated**
-
-**Python:** Proficient use of libraries like Pandas for data manipulation and analysis.
-
-**SQL:** Strong command over SQL queries for data aggregation, filtering, and exploration.
-
-**ETL Workflow:** Implemented a seamless Extract-Transform-Load process.
-
-**Problem-Solving:** Identified and resolved data quality issues to ensure reliable analysis.
-
-**<h3>How to Run This Project</h3>**
-
-**Clone this repository:**
-
-git clone https://github.com/yourusername/yourrepository.git
-
-**Install the required Python libraries:**
-
-pip install -r requirements.txt
-
-Use the Kaggle API to download the dataset (instructions included in the notebook).
-
-**Run the Python scripts for data cleaning and preprocessing:**
-
-1.Order Data Analysis.ipynb (Jupyter Notebook for detailed cleaning steps)
-
-2.orders data analysis.py (Python script version for automation)
-
-3.Load the cleaned data into an SQL Server database (setup instructions provided).
-
-4.Execute the SQL queries to analyze the data using SQLQuery3.sql.
-
-**<h3>Files in the Repository</h3>**
-
-**Order Data Analysis.ipynb:** Jupyter notebook for data cleaning and preprocessing.
-
-**orders data analysis.py:** Python script to clean and prepare the data.
-
-**SQLQuery3.sql:** Collection of SQL queries for data analysis.
-
-**orders.csv:** Raw dataset containing retail order information.
-
-**project architecture.png:** Visual representation of the project workflow.
-
-**README.md:** Project documentation.
-
-**<h3>Key Insights from the Analysis</h3>**
-
-1.Identified top-selling products and their revenue contributions.
-
-2.Analyzed customer purchasing patterns to inform marketing strategies.
-
-3.Determined peak sales periods for inventory management optimization.
-
-4.Segmented customers based on order frequency and value for targeted promotions.
-
-**Why This Project Matters**
-
-This project demonstrates a solid understanding of the data analytics lifecycle, from raw data to actionable insights. It showcases my technical skills, attention to detail, and ability to work with multiple tools and technologies—all essential for a career in data analytics.
-
-**Let's Connect**
-
-Feel free to explore the project and reach out with any questions or feedback. I'm excited to connect with like-minded professionals and recruiters in the data analytics field.
-
-**LinkedIn:** https://www.linkedin.com/in/devisuhitha/
-
-**Email:** cdevisuhitha@gmail.com
-
-
-
-
-
-
-
-
-
-
+## 👤 Author
+**Sai Kiran Bonumahantthi** | [GitHub](https://github.com/saikiranbonumahantthi) | saikiranbonumahanthi1@gmail.com
